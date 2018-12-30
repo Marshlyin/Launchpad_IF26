@@ -14,6 +14,21 @@
 		4D14219C21D6C0930048C9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D14219A21D6C0930048C9EB /* LaunchScreen.storyboard */; };
 		4D1421A721D6C0930048C9EB /* Launchpad_IF26Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1421A621D6C0930048C9EB /* Launchpad_IF26Tests.swift */; };
 		4D1421B221D6C0930048C9EB /* Launchpad_IF26UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1421B121D6C0930048C9EB /* Launchpad_IF26UITests.swift */; };
+		4D40AD1521D96C0B005A42DD /* DrumpadLoFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */; };
+		4D40AD2321D97E67005A42DD /* snare17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1721D97E67005A42DD /* snare17.wav */; };
+		4D40AD2421D97E67005A42DD /* kick05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1821D97E67005A42DD /* kick05.wav */; };
+		4D40AD2521D97E67005A42DD /* snare18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1921D97E67005A42DD /* snare18.wav */; };
+		4D40AD2621D97E67005A42DD /* kick03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1A21D97E67005A42DD /* kick03.wav */; };
+		4D40AD2721D97E67005A42DD /* hat01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1B21D97E67005A42DD /* hat01.wav */; };
+		4D40AD2821D97E67005A42DD /* snare15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1C21D97E67005A42DD /* snare15.wav */; };
+		4D40AD2921D97E67005A42DD /* snare05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1D21D97E67005A42DD /* snare05.wav */; };
+		4D40AD2A21D97E67005A42DD /* kick11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1E21D97E67005A42DD /* kick11.wav */; };
+		4D40AD2B21D97E67005A42DD /* hat10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD1F21D97E67005A42DD /* hat10.wav */; };
+		4D40AD2C21D97E67005A42DD /* snare09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD2021D97E67005A42DD /* snare09.wav */; };
+		4D40AD2D21D97E67005A42DD /* hat02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD2121D97E67005A42DD /* hat02.wav */; };
+		4D40AD2E21D97E67005A42DD /* snare02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD2221D97E67005A42DD /* snare02.wav */; };
+		4D40AD3021D97F52005A42DD /* Son in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD2F21D97F51005A42DD /* Son */; };
+		4D40AD3221D97FA6005A42DD /* Son in Resources */ = {isa = PBXBuildFile; fileRef = 4D40AD3121D97FA6005A42DD /* Son */; };
 		4D6FF96921D8F83D002D41A0 /* MdpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FF96821D8F83D002D41A0 /* MdpController.swift */; };
 		4DC2BF8D21D9482600EB55FE /* ResetMdpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +64,21 @@
 		4D1421AD21D6C0930048C9EB /* Launchpad_IF26UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Launchpad_IF26UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1421B121D6C0930048C9EB /* Launchpad_IF26UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launchpad_IF26UITests.swift; sourceTree = "<group>"; };
 		4D1421B321D6C0940048C9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumpadLoFi.swift; sourceTree = "<group>"; };
+		4D40AD1721D97E67005A42DD /* snare17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare17.wav; path = ../../../../Downloads/snare17.wav; sourceTree = "<group>"; };
+		4D40AD1821D97E67005A42DD /* kick05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick05.wav; path = ../../../../Downloads/kick05.wav; sourceTree = "<group>"; };
+		4D40AD1921D97E67005A42DD /* snare18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare18.wav; path = ../../../../Downloads/snare18.wav; sourceTree = "<group>"; };
+		4D40AD1A21D97E67005A42DD /* kick03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick03.wav; path = ../../../../Downloads/kick03.wav; sourceTree = "<group>"; };
+		4D40AD1B21D97E67005A42DD /* hat01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hat01.wav; path = ../../../../Downloads/hat01.wav; sourceTree = "<group>"; };
+		4D40AD1C21D97E67005A42DD /* snare15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare15.wav; path = ../../../../Downloads/snare15.wav; sourceTree = "<group>"; };
+		4D40AD1D21D97E67005A42DD /* snare05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare05.wav; path = ../../../../Downloads/snare05.wav; sourceTree = "<group>"; };
+		4D40AD1E21D97E67005A42DD /* kick11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick11.wav; path = ../../../../Downloads/kick11.wav; sourceTree = "<group>"; };
+		4D40AD1F21D97E67005A42DD /* hat10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hat10.wav; path = ../../../../Downloads/hat10.wav; sourceTree = "<group>"; };
+		4D40AD2021D97E67005A42DD /* snare09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare09.wav; path = ../../../../Downloads/snare09.wav; sourceTree = "<group>"; };
+		4D40AD2121D97E67005A42DD /* hat02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hat02.wav; path = ../../../../Downloads/hat02.wav; sourceTree = "<group>"; };
+		4D40AD2221D97E67005A42DD /* snare02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare02.wav; path = ../../../../Downloads/snare02.wav; sourceTree = "<group>"; };
+		4D40AD2F21D97F51005A42DD /* Son */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Son; sourceTree = "<group>"; };
+		4D40AD3121D97FA6005A42DD /* Son */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Son; sourceTree = "<group>"; };
 		4D6FF96821D8F83D002D41A0 /* MdpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdpController.swift; sourceTree = "<group>"; };
 		4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetMdpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +131,7 @@
 		4D14219021D6C08F0048C9EB /* Launchpad_IF26 */ = {
 			isa = PBXGroup;
 			children = (
+				4D40AD1621D97E2D005A42DD /* Son */,
 				4D14219121D6C08F0048C9EB /* AppDelegate.swift */,
 				4D14219321D6C08F0048C9EB /* ViewController.swift */,
 				4D6FF96821D8F83D002D41A0 /* MdpController.swift */,
@@ -109,6 +140,7 @@
 				4D14219821D6C0930048C9EB /* Assets.xcassets */,
 				4D14219A21D6C0930048C9EB /* LaunchScreen.storyboard */,
 				4D14219D21D6C0930048C9EB /* Info.plist */,
+				4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */,
 			);
 			path = Launchpad_IF26;
 			sourceTree = "<group>";
@@ -129,6 +161,27 @@
 				4D1421B321D6C0940048C9EB /* Info.plist */,
 			);
 			path = Launchpad_IF26UITests;
+			sourceTree = "<group>";
+		};
+		4D40AD1621D97E2D005A42DD /* Son */ = {
+			isa = PBXGroup;
+			children = (
+				4D40AD2F21D97F51005A42DD /* Son */,
+				4D40AD3121D97FA6005A42DD /* Son */,
+				4D40AD1B21D97E67005A42DD /* hat01.wav */,
+				4D40AD2121D97E67005A42DD /* hat02.wav */,
+				4D40AD1F21D97E67005A42DD /* hat10.wav */,
+				4D40AD1A21D97E67005A42DD /* kick03.wav */,
+				4D40AD1821D97E67005A42DD /* kick05.wav */,
+				4D40AD1E21D97E67005A42DD /* kick11.wav */,
+				4D40AD2221D97E67005A42DD /* snare02.wav */,
+				4D40AD1D21D97E67005A42DD /* snare05.wav */,
+				4D40AD2021D97E67005A42DD /* snare09.wav */,
+				4D40AD1C21D97E67005A42DD /* snare15.wav */,
+				4D40AD1721D97E67005A42DD /* snare17.wav */,
+				4D40AD1921D97E67005A42DD /* snare18.wav */,
+			);
+			path = Son;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +288,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D40AD2321D97E67005A42DD /* snare17.wav in Resources */,
+				4D40AD2421D97E67005A42DD /* kick05.wav in Resources */,
+				4D40AD2821D97E67005A42DD /* snare15.wav in Resources */,
 				4D14219C21D6C0930048C9EB /* LaunchScreen.storyboard in Resources */,
+				4D40AD3221D97FA6005A42DD /* Son in Resources */,
+				4D40AD2C21D97E67005A42DD /* snare09.wav in Resources */,
+				4D40AD2A21D97E67005A42DD /* kick11.wav in Resources */,
+				4D40AD2721D97E67005A42DD /* hat01.wav in Resources */,
+				4D40AD2921D97E67005A42DD /* snare05.wav in Resources */,
+				4D40AD2E21D97E67005A42DD /* snare02.wav in Resources */,
 				4D14219921D6C0930048C9EB /* Assets.xcassets in Resources */,
+				4D40AD2621D97E67005A42DD /* kick03.wav in Resources */,
+				4D40AD3021D97F52005A42DD /* Son in Resources */,
 				4D14219721D6C0900048C9EB /* Main.storyboard in Resources */,
+				4D40AD2521D97E67005A42DD /* snare18.wav in Resources */,
+				4D40AD2D21D97E67005A42DD /* hat02.wav in Resources */,
+				4D40AD2B21D97E67005A42DD /* hat10.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +331,7 @@
 			files = (
 				4D6FF96921D8F83D002D41A0 /* MdpController.swift in Sources */,
 				4D14219421D6C08F0048C9EB /* ViewController.swift in Sources */,
+				4D40AD1521D96C0B005A42DD /* DrumpadLoFi.swift in Sources */,
 				4D14219221D6C08F0048C9EB /* AppDelegate.swift in Sources */,
 				4DC2BF8D21D9482600EB55FE /* ResetMdpController.swift in Sources */,
 			);
