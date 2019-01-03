@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		4D14219221D6C08F0048C9EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14219121D6C08F0048C9EB /* AppDelegate.swift */; };
 		4D14219421D6C08F0048C9EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14219321D6C08F0048C9EB /* ViewController.swift */; };
-		4D14219721D6C0900048C9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D14219521D6C0900048C9EB /* Main.storyboard */; };
+		4D14219721D6C0900048C9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D14219521D6C0900048C9EB /* Main.storyboard */; settings = {ASSET_TAGS = (ca, ); }; };
 		4D14219921D6C0930048C9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D14219821D6C0930048C9EB /* Assets.xcassets */; };
 		4D14219C21D6C0930048C9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D14219A21D6C0930048C9EB /* LaunchScreen.storyboard */; };
 		4D1421A721D6C0930048C9EB /* Launchpad_IF26Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1421A621D6C0930048C9EB /* Launchpad_IF26Tests.swift */; };
 		4D1421B221D6C0930048C9EB /* Launchpad_IF26UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1421B121D6C0930048C9EB /* Launchpad_IF26UITests.swift */; };
+		4D2E29F821DD8E3400577F5F /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E29EA21DD8E0F00577F5F /* SQLite.framework */; };
+		4D2E29F921DD8E3A00577F5F /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E29EA21DD8E0F00577F5F /* SQLite.framework */; };
+		4D2E29FA21DD8E3A00577F5F /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E29EA21DD8E0F00577F5F /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D2E29FF21DD8FB300577F5F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E29FE21DD8FB300577F5F /* TableViewController.swift */; };
+		4D2E2A0121DD8FD700577F5F /* SingletonBdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0021DD8FD700577F5F /* SingletonBdd.swift */; };
+		4D2E2A0521DD8FFC00577F5F /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0221DD8FFC00577F5F /* Module.swift */; };
+		4D2E2A0721DD8FFC00577F5F /* Resultat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0421DD8FFC00577F5F /* Resultat.swift */; };
+		4D2E2A0921DD900500577F5F /* InsertModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */; };
+		4D2E2A0B21DD912B00577F5F /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0A21DD912B00577F5F /* Main2.storyboard */; };
 		4D40AD1521D96C0B005A42DD /* DrumpadLoFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */; };
 		4D42FD0B21DA3BE90031FAF9 /* hat01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0A21DA3BE90031FAF9 /* hat01.wav */; };
 		4D42FD2321DA3C170031FAF9 /* rock_snare1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */; };
@@ -58,7 +67,77 @@
 			remoteGlobalIDString = 4D14218D21D6C08F0048C9EB;
 			remoteInfo = Launchpad_IF26;
 		};
+		4D2E29E921DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		4D2E29EB21DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		4D2E29ED21DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		4D2E29EF21DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		4D2E29F121DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		4D2E29F321DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		4D2E29F521DD8E0F00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		4D2E29FB21DD8E3A00577F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D2E29FD21DD8E3A00577F5F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D2E29FA21DD8E3A00577F5F /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D14218E21D6C08F0048C9EB /* Launchpad_IF26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launchpad_IF26.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +153,13 @@
 		4D1421AD21D6C0930048C9EB /* Launchpad_IF26UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Launchpad_IF26UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1421B121D6C0930048C9EB /* Launchpad_IF26UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launchpad_IF26UITests.swift; sourceTree = "<group>"; };
 		4D1421B321D6C0940048C9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		4D2E29FE21DD8FB300577F5F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4D2E2A0021DD8FD700577F5F /* SingletonBdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonBdd.swift; sourceTree = "<group>"; };
+		4D2E2A0221DD8FFC00577F5F /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		4D2E2A0421DD8FFC00577F5F /* Resultat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resultat.swift; sourceTree = "<group>"; };
+		4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertModuleViewController.swift; sourceTree = "<group>"; };
+		4D2E2A0A21DD912B00577F5F /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumpadLoFi.swift; sourceTree = "<group>"; };
 		4D42FD0A21DA3BE90031FAF9 /* hat01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hat01.wav; sourceTree = "<group>"; };
 		4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_snare1.wav; sourceTree = "<group>"; };
@@ -108,6 +194,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2E29F921DD8E3A00577F5F /* SQLite.framework in Frameworks */,
+				4D2E29F821DD8E3400577F5F /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +223,8 @@
 				4D1421A521D6C0930048C9EB /* Launchpad_IF26Tests */,
 				4D1421B021D6C0930048C9EB /* Launchpad_IF26UITests */,
 				4D14218F21D6C08F0048C9EB /* Products */,
+				4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */,
+				4D2E29F721DD8E3400577F5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,12 +247,18 @@
 				4D6FF96821D8F83D002D41A0 /* MdpController.swift */,
 				4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */,
 				4D14219521D6C0900048C9EB /* Main.storyboard */,
+				4D2E2A0A21DD912B00577F5F /* Main2.storyboard */,
 				4D42FD0A21DA3BE90031FAF9 /* hat01.wav */,
 				4D42FD1D21DA3C160031FAF9 /* hat02.wav */,
 				4D42FD1421DA3C160031FAF9 /* hat10.wav */,
 				4D42FD1521DA3C160031FAF9 /* kick03.wav */,
 				4D42FD0F21DA3C150031FAF9 /* kick05.wav */,
+				4D2E29FE21DD8FB300577F5F /* TableViewController.swift */,
 				4D42FD1A21DA3C160031FAF9 /* kick11.wav */,
+				4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */,
+				4D2E2A0421DD8FFC00577F5F /* Resultat.swift */,
+				4D2E2A0021DD8FD700577F5F /* SingletonBdd.swift */,
+				4D2E2A0221DD8FFC00577F5F /* Module.swift */,
 				4D42FD1F21DA3C160031FAF9 /* rock_crash1.wav */,
 				4D42FD1B21DA3C160031FAF9 /* rock_crash2.wav */,
 				4D42FD1621DA3C160031FAF9 /* rock_hatclosed.wav */,
@@ -206,6 +302,27 @@
 			path = Launchpad_IF26UITests;
 			sourceTree = "<group>";
 		};
+		4D2E29E021DD8E0E00577F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E29EA21DD8E0F00577F5F /* SQLite.framework */,
+				4D2E29EC21DD8E0F00577F5F /* SQLiteTests iOS.xctest */,
+				4D2E29EE21DD8E0F00577F5F /* SQLite.framework */,
+				4D2E29F021DD8E0F00577F5F /* SQLiteTests Mac.xctest */,
+				4D2E29F221DD8E0F00577F5F /* SQLite.framework */,
+				4D2E29F421DD8E0F00577F5F /* SQLiteTests tvOS.xctest */,
+				4D2E29F621DD8E0F00577F5F /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2E29F721DD8E3400577F5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,10 +333,12 @@
 				4D14218A21D6C08F0048C9EB /* Sources */,
 				4D14218B21D6C08F0048C9EB /* Frameworks */,
 				4D14218C21D6C08F0048C9EB /* Resources */,
+				4D2E29FD21DD8E3A00577F5F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4D2E29FC21DD8E3A00577F5F /* PBXTargetDependency */,
 			);
 			name = Launchpad_IF26;
 			productName = Launchpad_IF26;
@@ -268,6 +387,9 @@
 		4D14218621D6C08F0048C9EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					ca,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = user148557;
@@ -296,6 +418,12 @@
 			mainGroup = 4D14218521D6C08F0048C9EB;
 			productRefGroup = 4D14218F21D6C08F0048C9EB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D2E29E021DD8E0E00577F5F /* Products */;
+					ProjectRef = 4D2E29DF21DD8E0E00577F5F /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4D14218D21D6C08F0048C9EB /* Launchpad_IF26 */,
@@ -305,6 +433,58 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4D2E29EA21DD8E0F00577F5F /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 4D2E29E921DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D2E29EC21DD8E0F00577F5F /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 4D2E29EB21DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D2E29EE21DD8E0F00577F5F /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 4D2E29ED21DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D2E29F021DD8E0F00577F5F /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 4D2E29EF21DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D2E29F221DD8E0F00577F5F /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 4D2E29F121DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D2E29F421DD8E0F00577F5F /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 4D2E29F321DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D2E29F621DD8E0F00577F5F /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 4D2E29F521DD8E0F00577F5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4D14218C21D6C08F0048C9EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -312,6 +492,7 @@
 			files = (
 				4D42FD3221DA3C170031FAF9 /* rock_crash2.wav in Resources */,
 				4D42FD2D21DA3C170031FAF9 /* rock_hatclosed.wav in Resources */,
+				4D2E2A0B21DD912B00577F5F /* Main2.storyboard in Resources */,
 				4D42FD2B21DA3C170031FAF9 /* hat10.wav in Resources */,
 				4D42FD2521DA3C170031FAF9 /* rock_kick.wav in Resources */,
 				4D14219C21D6C0930048C9EB /* LaunchScreen.storyboard in Resources */,
@@ -362,8 +543,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D6FF96921D8F83D002D41A0 /* MdpController.swift in Sources */,
+				4D2E29FF21DD8FB300577F5F /* TableViewController.swift in Sources */,
+				4D2E2A0921DD900500577F5F /* InsertModuleViewController.swift in Sources */,
+				4D2E2A0121DD8FD700577F5F /* SingletonBdd.swift in Sources */,
+				4D2E2A0721DD8FFC00577F5F /* Resultat.swift in Sources */,
 				4D14219421D6C08F0048C9EB /* ViewController.swift in Sources */,
 				4D40AD1521D96C0B005A42DD /* DrumpadLoFi.swift in Sources */,
+				4D2E2A0521DD8FFC00577F5F /* Module.swift in Sources */,
 				4D14219221D6C08F0048C9EB /* AppDelegate.swift in Sources */,
 				4DC2BF8D21D9482600EB55FE /* ResetMdpController.swift in Sources */,
 			);
@@ -397,6 +583,11 @@
 			isa = PBXTargetDependency;
 			target = 4D14218D21D6C08F0048C9EB /* Launchpad_IF26 */;
 			targetProxy = 4D1421AE21D6C0930048C9EB /* PBXContainerItemProxy */;
+		};
+		4D2E29FC21DD8E3A00577F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 4D2E29FB21DD8E3A00577F5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,6 +730,7 @@
 		4D1421B721D6C0940048C9EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26/Info.plist;
@@ -556,6 +748,7 @@
 		4D1421B821D6C0940048C9EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26/Info.plist;
