@@ -22,7 +22,6 @@
 		4D2E2A0521DD8FFC00577F5F /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0221DD8FFC00577F5F /* Module.swift */; };
 		4D2E2A0721DD8FFC00577F5F /* Resultat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0421DD8FFC00577F5F /* Resultat.swift */; };
 		4D2E2A0921DD900500577F5F /* InsertModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */; };
-		4D2E2A0B21DD912B00577F5F /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0A21DD912B00577F5F /* Main2.storyboard */; };
 		4D40AD1521D96C0B005A42DD /* DrumpadLoFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */; };
 		4D42FD0B21DA3BE90031FAF9 /* hat01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0A21DA3BE90031FAF9 /* hat01.wav */; };
 		4D42FD2321DA3C170031FAF9 /* rock_snare1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */; };
@@ -50,6 +49,7 @@
 		4D42FD3921DA3C170031FAF9 /* snare02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD2221DA3C160031FAF9 /* snare02.wav */; };
 		4D6FF96921D8F83D002D41A0 /* MdpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FF96821D8F83D002D41A0 /* MdpController.swift */; };
 		4DC2BF8D21D9482600EB55FE /* ResetMdpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */; };
+		60783DAB21E3BC3B00240521 /* DrumpadRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783DAA21E3BC3B00240521 /* DrumpadRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,7 +159,6 @@
 		4D2E2A0221DD8FFC00577F5F /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 		4D2E2A0421DD8FFC00577F5F /* Resultat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resultat.swift; sourceTree = "<group>"; };
 		4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertModuleViewController.swift; sourceTree = "<group>"; };
-		4D2E2A0A21DD912B00577F5F /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumpadLoFi.swift; sourceTree = "<group>"; };
 		4D42FD0A21DA3BE90031FAF9 /* hat01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hat01.wav; sourceTree = "<group>"; };
 		4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_snare1.wav; sourceTree = "<group>"; };
@@ -187,6 +186,7 @@
 		4D42FD2221DA3C160031FAF9 /* snare02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare02.wav; sourceTree = "<group>"; };
 		4D6FF96821D8F83D002D41A0 /* MdpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdpController.swift; sourceTree = "<group>"; };
 		4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetMdpController.swift; sourceTree = "<group>"; };
+		60783DAA21E3BC3B00240521 /* DrumpadRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumpadRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,10 +244,10 @@
 				4D14219121D6C08F0048C9EB /* AppDelegate.swift */,
 				4D14219321D6C08F0048C9EB /* ViewController.swift */,
 				4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */,
+				60783DAA21E3BC3B00240521 /* DrumpadRock.swift */,
 				4D6FF96821D8F83D002D41A0 /* MdpController.swift */,
 				4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */,
 				4D14219521D6C0900048C9EB /* Main.storyboard */,
-				4D2E2A0A21DD912B00577F5F /* Main2.storyboard */,
 				4D42FD0A21DA3BE90031FAF9 /* hat01.wav */,
 				4D42FD1D21DA3C160031FAF9 /* hat02.wav */,
 				4D42FD1421DA3C160031FAF9 /* hat10.wav */,
@@ -492,7 +492,6 @@
 			files = (
 				4D42FD3221DA3C170031FAF9 /* rock_crash2.wav in Resources */,
 				4D42FD2D21DA3C170031FAF9 /* rock_hatclosed.wav in Resources */,
-				4D2E2A0B21DD912B00577F5F /* Main2.storyboard in Resources */,
 				4D42FD2B21DA3C170031FAF9 /* hat10.wav in Resources */,
 				4D42FD2521DA3C170031FAF9 /* rock_kick.wav in Resources */,
 				4D14219C21D6C0930048C9EB /* LaunchScreen.storyboard in Resources */,
@@ -545,6 +544,7 @@
 				4D6FF96921D8F83D002D41A0 /* MdpController.swift in Sources */,
 				4D2E29FF21DD8FB300577F5F /* TableViewController.swift in Sources */,
 				4D2E2A0921DD900500577F5F /* InsertModuleViewController.swift in Sources */,
+				60783DAB21E3BC3B00240521 /* DrumpadRock.swift in Sources */,
 				4D2E2A0121DD8FD700577F5F /* SingletonBdd.swift in Sources */,
 				4D2E2A0721DD8FFC00577F5F /* Resultat.swift in Sources */,
 				4D14219421D6C08F0048C9EB /* ViewController.swift in Sources */,
@@ -734,6 +734,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -752,6 +753,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -770,6 +772,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -790,6 +793,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -809,6 +813,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -828,6 +833,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Launchpad_IF26UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

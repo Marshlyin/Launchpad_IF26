@@ -1,37 +1,37 @@
 //
-//  DrumpadLoFi.swift
+//  DrumpadRock.swift
 //  Launchpad_IF26
 //
-//  Created by user148557 on 30/12/2018.
-//  Copyright © 2018 user148557. All rights reserved.
+//  Created by BELLI Flavien on 07/01/2019.
+//  Copyright © 2019 user148557. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 
-class DrumpadLoFi: UIViewController{
+class DrumpadRock : UIViewController{
     
     var audioPlayer : AVAudioPlayer!
- 
     
-    let Sound1 = Bundle.main.url(forResource: "hat01", withExtension: "wav")
-    let Sound2 = Bundle.main.url(forResource: "hat02", withExtension: "wav")
-    let Sound3 = Bundle.main.url(forResource: "hat10", withExtension: "wav")
-    let Sound4 = Bundle.main.url(forResource: "snare02", withExtension: "wav")
-    let Sound5 = Bundle.main.url(forResource: "snare05", withExtension: "wav")
-    let Sound6 = Bundle.main.url(forResource: "snare09", withExtension: "wav")
-    let Sound7 = Bundle.main.url(forResource: "snare15", withExtension: "wav")
-    let Sound8 = Bundle.main.url(forResource: "snare17", withExtension: "wav")
-    let Sound9 = Bundle.main.url(forResource: "snare18", withExtension: "wav")
-    let Sound10 = Bundle.main.url(forResource: "kick03", withExtension: "wav")
-    let Sound11 = Bundle.main.url(forResource: "kick05", withExtension: "wav")
-    let Sound12 = Bundle.main.url(forResource: "kick11", withExtension: "wav")
+    
+    let Sound1 = Bundle.main.url(forResource: "rock_crash1", withExtension: "wav")
+    let Sound2 = Bundle.main.url(forResource: "rock_crash2", withExtension: "wav")
+    let Sound3 = Bundle.main.url(forResource: "rock_hatclosed", withExtension: "wav")
+    let Sound4 = Bundle.main.url(forResource: "rock_hatopen", withExtension: "wav")
+    let Sound5 = Bundle.main.url(forResource: "rock_kick", withExtension: "wav")
+    let Sound6 = Bundle.main.url(forResource: "rock_kick2", withExtension: "wav")
+    let Sound7 = Bundle.main.url(forResource: "rock_kick3", withExtension: "wav")
+    let Sound8 = Bundle.main.url(forResource: "rock_kick4", withExtension: "wav")
+    let Sound9 = Bundle.main.url(forResource: "rock_snare1", withExtension: "wav")
+    let Sound10 = Bundle.main.url(forResource: "rock_snare2", withExtension: "wav")
+    let Sound11 = Bundle.main.url(forResource: "rock_snare3", withExtension: "wav")
+    let Sound12 = Bundle.main.url(forResource: "rock_snare4", withExtension: "wav")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        }
+    }
     
     @IBAction func playSound1(_ sender: AnyObject) {
         
@@ -52,7 +52,7 @@ class DrumpadLoFi: UIViewController{
             print("tiptop2")
         } catch {
             print("Unexpected error: \(error).")
-
+            
             // couldn't load file :(
         }
     }
@@ -126,7 +126,7 @@ class DrumpadLoFi: UIViewController{
     @IBAction func playSound9(_ sender: AnyObject) {
         
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: Sound9!)
+            audioPlayer = try AVAudioPlayer(contentsOf: Sound9! )
             audioPlayer.play()
             print("tiptop")
         } catch {
@@ -148,7 +148,7 @@ class DrumpadLoFi: UIViewController{
     @IBAction func playSound11(_ sender: AnyObject) {
         
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: Sound11!)
+            audioPlayer = try AVAudioPlayer(contentsOf: Sound11! )
             audioPlayer.play()
             print("tiptop")
         } catch {
