@@ -24,32 +24,21 @@
 		4D2E2A0921DD900500577F5F /* InsertModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */; };
 		4D40AD1521D96C0B005A42DD /* DrumpadLoFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */; };
 		4D42FD0B21DA3BE90031FAF9 /* hat01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0A21DA3BE90031FAF9 /* hat01.wav */; };
-		4D42FD2321DA3C170031FAF9 /* rock_snare1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */; };
-		4D42FD2421DA3C170031FAF9 /* rock_snare3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0D21DA3C150031FAF9 /* rock_snare3.wav */; };
-		4D42FD2521DA3C170031FAF9 /* rock_kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0E21DA3C150031FAF9 /* rock_kick.wav */; };
 		4D42FD2621DA3C170031FAF9 /* kick05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD0F21DA3C150031FAF9 /* kick05.wav */; };
-		4D42FD2721DA3C170031FAF9 /* rock_hatopen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1021DA3C150031FAF9 /* rock_hatopen.wav */; };
 		4D42FD2821DA3C170031FAF9 /* snare15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1121DA3C150031FAF9 /* snare15.wav */; };
-		4D42FD2921DA3C170031FAF9 /* rock_kick3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1221DA3C160031FAF9 /* rock_kick3.wav */; };
-		4D42FD2A21DA3C170031FAF9 /* rock_kick2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1321DA3C160031FAF9 /* rock_kick2.wav */; };
 		4D42FD2B21DA3C170031FAF9 /* hat10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1421DA3C160031FAF9 /* hat10.wav */; };
 		4D42FD2C21DA3C170031FAF9 /* kick03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1521DA3C160031FAF9 /* kick03.wav */; };
-		4D42FD2D21DA3C170031FAF9 /* rock_hatclosed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1621DA3C160031FAF9 /* rock_hatclosed.wav */; };
-		4D42FD2E21DA3C170031FAF9 /* rock_snare2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1721DA3C160031FAF9 /* rock_snare2.wav */; };
 		4D42FD2F21DA3C170031FAF9 /* snare05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1821DA3C160031FAF9 /* snare05.wav */; };
 		4D42FD3021DA3C170031FAF9 /* snare17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1921DA3C160031FAF9 /* snare17.wav */; };
 		4D42FD3121DA3C170031FAF9 /* kick11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1A21DA3C160031FAF9 /* kick11.wav */; };
-		4D42FD3221DA3C170031FAF9 /* rock_crash2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1B21DA3C160031FAF9 /* rock_crash2.wav */; };
-		4D42FD3321DA3C170031FAF9 /* rock_kick4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1C21DA3C160031FAF9 /* rock_kick4.wav */; };
 		4D42FD3421DA3C170031FAF9 /* hat02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1D21DA3C160031FAF9 /* hat02.wav */; };
 		4D42FD3521DA3C170031FAF9 /* snare09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1E21DA3C160031FAF9 /* snare09.wav */; };
-		4D42FD3621DA3C170031FAF9 /* rock_crash1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD1F21DA3C160031FAF9 /* rock_crash1.wav */; };
-		4D42FD3721DA3C170031FAF9 /* rock_snare4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD2021DA3C160031FAF9 /* rock_snare4.wav */; };
 		4D42FD3821DA3C170031FAF9 /* snare18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD2121DA3C160031FAF9 /* snare18.wav */; };
 		4D42FD3921DA3C170031FAF9 /* snare02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D42FD2221DA3C160031FAF9 /* snare02.wav */; };
 		4D6FF96921D8F83D002D41A0 /* MdpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FF96821D8F83D002D41A0 /* MdpController.swift */; };
 		4DC2BF8D21D9482600EB55FE /* ResetMdpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */; };
 		60783DAB21E3BC3B00240521 /* DrumpadRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783DAA21E3BC3B00240521 /* DrumpadRock.swift */; };
+		60783DAD21E3D51200240521 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60783DAC21E3D51200240521 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,32 +150,35 @@
 		4D2E2A0821DD900500577F5F /* InsertModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertModuleViewController.swift; sourceTree = "<group>"; };
 		4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumpadLoFi.swift; sourceTree = "<group>"; };
 		4D42FD0A21DA3BE90031FAF9 /* hat01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hat01.wav; sourceTree = "<group>"; };
-		4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_snare1.wav; sourceTree = "<group>"; };
-		4D42FD0D21DA3C150031FAF9 /* rock_snare3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_snare3.wav; sourceTree = "<group>"; };
-		4D42FD0E21DA3C150031FAF9 /* rock_kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_kick.wav; sourceTree = "<group>"; };
 		4D42FD0F21DA3C150031FAF9 /* kick05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick05.wav; sourceTree = "<group>"; };
-		4D42FD1021DA3C150031FAF9 /* rock_hatopen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_hatopen.wav; sourceTree = "<group>"; };
 		4D42FD1121DA3C150031FAF9 /* snare15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare15.wav; sourceTree = "<group>"; };
-		4D42FD1221DA3C160031FAF9 /* rock_kick3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_kick3.wav; sourceTree = "<group>"; };
-		4D42FD1321DA3C160031FAF9 /* rock_kick2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_kick2.wav; sourceTree = "<group>"; };
 		4D42FD1421DA3C160031FAF9 /* hat10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hat10.wav; sourceTree = "<group>"; };
 		4D42FD1521DA3C160031FAF9 /* kick03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick03.wav; sourceTree = "<group>"; };
-		4D42FD1621DA3C160031FAF9 /* rock_hatclosed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_hatclosed.wav; sourceTree = "<group>"; };
-		4D42FD1721DA3C160031FAF9 /* rock_snare2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_snare2.wav; sourceTree = "<group>"; };
 		4D42FD1821DA3C160031FAF9 /* snare05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare05.wav; sourceTree = "<group>"; };
 		4D42FD1921DA3C160031FAF9 /* snare17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare17.wav; sourceTree = "<group>"; };
 		4D42FD1A21DA3C160031FAF9 /* kick11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick11.wav; sourceTree = "<group>"; };
-		4D42FD1B21DA3C160031FAF9 /* rock_crash2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_crash2.wav; sourceTree = "<group>"; };
-		4D42FD1C21DA3C160031FAF9 /* rock_kick4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_kick4.wav; sourceTree = "<group>"; };
 		4D42FD1D21DA3C160031FAF9 /* hat02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hat02.wav; sourceTree = "<group>"; };
 		4D42FD1E21DA3C160031FAF9 /* snare09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare09.wav; sourceTree = "<group>"; };
-		4D42FD1F21DA3C160031FAF9 /* rock_crash1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_crash1.wav; sourceTree = "<group>"; };
-		4D42FD2021DA3C160031FAF9 /* rock_snare4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_snare4.wav; sourceTree = "<group>"; };
 		4D42FD2121DA3C160031FAF9 /* snare18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare18.wav; sourceTree = "<group>"; };
 		4D42FD2221DA3C160031FAF9 /* snare02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare02.wav; sourceTree = "<group>"; };
 		4D6FF96821D8F83D002D41A0 /* MdpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdpController.swift; sourceTree = "<group>"; };
 		4DC2BF8C21D9482600EB55FE /* ResetMdpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetMdpController.swift; sourceTree = "<group>"; };
 		60783DAA21E3BC3B00240521 /* DrumpadRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumpadRock.swift; sourceTree = "<group>"; };
+		60783DAC21E3D51200240521 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		60783DCA21E3D58800240521 /* High-Tom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "High-Tom.wav"; sourceTree = "<group>"; };
+		60783DCB21E3D58800240521 /* Crash Cymbal (Choked).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Crash Cymbal (Choked).wav"; sourceTree = "<group>"; };
+		60783DCC21E3D58900240521 /* Snare Drum (Cross-Stick).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Snare Drum (Cross-Stick).wav"; sourceTree = "<group>"; };
+		60783DCD21E3D58900240521 /* Crash Cymbal #1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Crash Cymbal #1.wav"; sourceTree = "<group>"; };
+		60783DCE21E3D58A00240521 /* Ride Cymbal (Hard).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ride Cymbal (Hard).wav"; sourceTree = "<group>"; };
+		60783DCF21E3D58B00240521 /* Floor Tom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Floor Tom.wav"; sourceTree = "<group>"; };
+		60783DD021E3D58B00240521 /* Snare Drum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Snare Drum.wav"; sourceTree = "<group>"; };
+		60783DD121E3D58C00240521 /* Ride Cymbal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ride Cymbal.wav"; sourceTree = "<group>"; };
+		60783DD221E3D58D00240521 /* Hi-Hat (Closed).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Hi-Hat (Closed).wav"; sourceTree = "<group>"; };
+		60783DD321E3D58D00240521 /* Mid-Tom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mid-Tom.wav"; sourceTree = "<group>"; };
+		60783DD421E3D58E00240521 /* Crash Cymbal #2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Crash Cymbal #2.wav"; sourceTree = "<group>"; };
+		60783DD521E3D58F00240521 /* Ride Cymbal (Bell).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ride Cymbal (Bell).wav"; sourceTree = "<group>"; };
+		60783DD621E3D58F00240521 /* BassDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BassDrum.wav; sourceTree = "<group>"; };
+		60783DD721E3D59000240521 /* Hi-Hat (Open).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Hi-Hat (Open).wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +233,21 @@
 		4D14219021D6C08F0048C9EB /* Launchpad_IF26 */ = {
 			isa = PBXGroup;
 			children = (
+				60783DD621E3D58F00240521 /* BassDrum.wav */,
+				60783DCB21E3D58800240521 /* Crash Cymbal (Choked).wav */,
+				60783DCD21E3D58900240521 /* Crash Cymbal #1.wav */,
+				60783DD421E3D58E00240521 /* Crash Cymbal #2.wav */,
+				60783DCF21E3D58B00240521 /* Floor Tom.wav */,
+				60783DD221E3D58D00240521 /* Hi-Hat (Closed).wav */,
+				60783DD721E3D59000240521 /* Hi-Hat (Open).wav */,
+				60783DCA21E3D58800240521 /* High-Tom.wav */,
+				60783DD321E3D58D00240521 /* Mid-Tom.wav */,
+				60783DD521E3D58F00240521 /* Ride Cymbal (Bell).wav */,
+				60783DCE21E3D58A00240521 /* Ride Cymbal (Hard).wav */,
+				60783DD121E3D58C00240521 /* Ride Cymbal.wav */,
+				60783DCC21E3D58900240521 /* Snare Drum (Cross-Stick).wav */,
+				60783DD021E3D58B00240521 /* Snare Drum.wav */,
+				60783DAC21E3D51200240521 /* Media.xcassets */,
 				4D14219121D6C08F0048C9EB /* AppDelegate.swift */,
 				4D14219321D6C08F0048C9EB /* ViewController.swift */,
 				4D40AD1421D96C0B005A42DD /* DrumpadLoFi.swift */,
@@ -259,18 +266,6 @@
 				4D2E2A0421DD8FFC00577F5F /* Resultat.swift */,
 				4D2E2A0021DD8FD700577F5F /* SingletonBdd.swift */,
 				4D2E2A0221DD8FFC00577F5F /* Module.swift */,
-				4D42FD1F21DA3C160031FAF9 /* rock_crash1.wav */,
-				4D42FD1B21DA3C160031FAF9 /* rock_crash2.wav */,
-				4D42FD1621DA3C160031FAF9 /* rock_hatclosed.wav */,
-				4D42FD1021DA3C150031FAF9 /* rock_hatopen.wav */,
-				4D42FD0E21DA3C150031FAF9 /* rock_kick.wav */,
-				4D42FD1321DA3C160031FAF9 /* rock_kick2.wav */,
-				4D42FD1221DA3C160031FAF9 /* rock_kick3.wav */,
-				4D42FD1C21DA3C160031FAF9 /* rock_kick4.wav */,
-				4D42FD0C21DA3C150031FAF9 /* rock_snare1.wav */,
-				4D42FD1721DA3C160031FAF9 /* rock_snare2.wav */,
-				4D42FD0D21DA3C150031FAF9 /* rock_snare3.wav */,
-				4D42FD2021DA3C160031FAF9 /* rock_snare4.wav */,
 				4D42FD2221DA3C160031FAF9 /* snare02.wav */,
 				4D42FD1821DA3C160031FAF9 /* snare05.wav */,
 				4D42FD1E21DA3C160031FAF9 /* snare09.wav */,
@@ -490,32 +485,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D42FD3221DA3C170031FAF9 /* rock_crash2.wav in Resources */,
-				4D42FD2D21DA3C170031FAF9 /* rock_hatclosed.wav in Resources */,
+				60783DAD21E3D51200240521 /* Media.xcassets in Resources */,
 				4D42FD2B21DA3C170031FAF9 /* hat10.wav in Resources */,
-				4D42FD2521DA3C170031FAF9 /* rock_kick.wav in Resources */,
 				4D14219C21D6C0930048C9EB /* LaunchScreen.storyboard in Resources */,
-				4D42FD2E21DA3C170031FAF9 /* rock_snare2.wav in Resources */,
 				4D42FD2F21DA3C170031FAF9 /* snare05.wav in Resources */,
 				4D14219921D6C0930048C9EB /* Assets.xcassets in Resources */,
 				4D42FD3421DA3C170031FAF9 /* hat02.wav in Resources */,
 				4D14219721D6C0900048C9EB /* Main.storyboard in Resources */,
-				4D42FD3721DA3C170031FAF9 /* rock_snare4.wav in Resources */,
 				4D42FD3521DA3C170031FAF9 /* snare09.wav in Resources */,
-				4D42FD3621DA3C170031FAF9 /* rock_crash1.wav in Resources */,
-				4D42FD2A21DA3C170031FAF9 /* rock_kick2.wav in Resources */,
-				4D42FD2421DA3C170031FAF9 /* rock_snare3.wav in Resources */,
 				4D42FD3121DA3C170031FAF9 /* kick11.wav in Resources */,
-				4D42FD2921DA3C170031FAF9 /* rock_kick3.wav in Resources */,
 				4D42FD3921DA3C170031FAF9 /* snare02.wav in Resources */,
 				4D42FD2621DA3C170031FAF9 /* kick05.wav in Resources */,
-				4D42FD2321DA3C170031FAF9 /* rock_snare1.wav in Resources */,
 				4D42FD0B21DA3BE90031FAF9 /* hat01.wav in Resources */,
 				4D42FD3021DA3C170031FAF9 /* snare17.wav in Resources */,
 				4D42FD2C21DA3C170031FAF9 /* kick03.wav in Resources */,
 				4D42FD2821DA3C170031FAF9 /* snare15.wav in Resources */,
-				4D42FD2721DA3C170031FAF9 /* rock_hatopen.wav in Resources */,
-				4D42FD3321DA3C170031FAF9 /* rock_kick4.wav in Resources */,
 				4D42FD3821DA3C170031FAF9 /* snare18.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,18 +14,18 @@ class DrumpadRock : UIViewController{
     var audioPlayer : AVAudioPlayer!
     
     
-    let Sound1 = Bundle.main.url(forResource: "rock_crash1", withExtension: "wav")
-    let Sound2 = Bundle.main.url(forResource: "rock_crash2", withExtension: "wav")
-    let Sound3 = Bundle.main.url(forResource: "rock_hatclosed", withExtension: "wav")
-    let Sound4 = Bundle.main.url(forResource: "rock_hatopen", withExtension: "wav")
-    let Sound5 = Bundle.main.url(forResource: "rock_kick", withExtension: "wav")
-    let Sound6 = Bundle.main.url(forResource: "rock_kick2", withExtension: "wav")
-    let Sound7 = Bundle.main.url(forResource: "rock_kick3", withExtension: "wav")
-    let Sound8 = Bundle.main.url(forResource: "rock_kick4", withExtension: "wav")
-    let Sound9 = Bundle.main.url(forResource: "rock_snare1", withExtension: "wav")
-    let Sound10 = Bundle.main.url(forResource: "rock_snare2", withExtension: "wav")
-    let Sound11 = Bundle.main.url(forResource: "rock_snare3", withExtension: "wav")
-    let Sound12 = Bundle.main.url(forResource: "rock_snare4", withExtension: "wav")
+    let Sound1 = Bundle.main.url(forResource: "BassDrum", withExtension: "wav")
+    let Sound2 = Bundle.main.url(forResource: "Crash Cymbal (Choked)", withExtension: "wav")
+    let Sound3 = Bundle.main.url(forResource: "Crash Cymbal #1", withExtension: "wav")
+    let Sound4 = Bundle.main.url(forResource: "Crash Cymbal #2", withExtension: "wav")
+    let Sound5 = Bundle.main.url(forResource: "Floor Tom", withExtension: "wav")
+    let Sound6 = Bundle.main.url(forResource: "Hi-Hat (Closed)", withExtension: "wav")
+    let Sound7 = Bundle.main.url(forResource: "Hi-Hat (Open)", withExtension: "wav")
+    let Sound8 = Bundle.main.url(forResource: "High-Tom", withExtension: "wav")
+    let Sound9 = Bundle.main.url(forResource: "Mid-Tom", withExtension: "wav")
+    let Sound10 = Bundle.main.url(forResource: "Ride Cymbal (Bell)", withExtension: "wav")
+    let Sound11 = Bundle.main.url(forResource: "Ride Cymbal (Hard)", withExtension: "wav")
+    let Sound12 = Bundle.main.url(forResource: "Ride Cymbal", withExtension: "wav")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +40,7 @@ class DrumpadRock : UIViewController{
             audioPlayer.play()
             print("tiptop")
         } catch {
+            print("Unexpected error: \(error).")
             // couldn't load file :(
         }
     }
