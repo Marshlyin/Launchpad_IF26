@@ -14,18 +14,18 @@ class DrumpadRock : UIViewController{
     var audioPlayer : AVAudioPlayer!
     
     
-    let Sound1 = Bundle.main.url(forResource: "BassDrum", withExtension: "wav")
-    let Sound2 = Bundle.main.url(forResource: "Crash Cymbal (Choked)", withExtension: "wav")
-    let Sound3 = Bundle.main.url(forResource: "Crash Cymbal #1", withExtension: "wav")
-    let Sound4 = Bundle.main.url(forResource: "Crash Cymbal #2", withExtension: "wav")
-    let Sound5 = Bundle.main.url(forResource: "Floor Tom", withExtension: "wav")
-    let Sound6 = Bundle.main.url(forResource: "Hi-Hat (Closed)", withExtension: "wav")
-    let Sound7 = Bundle.main.url(forResource: "Hi-Hat (Open)", withExtension: "wav")
-    let Sound8 = Bundle.main.url(forResource: "High-Tom", withExtension: "wav")
-    let Sound9 = Bundle.main.url(forResource: "Mid-Tom", withExtension: "wav")
-    let Sound10 = Bundle.main.url(forResource: "Ride Cymbal (Bell)", withExtension: "wav")
-    let Sound11 = Bundle.main.url(forResource: "Ride Cymbal (Hard)", withExtension: "wav")
-    let Sound12 = Bundle.main.url(forResource: "Ride Cymbal", withExtension: "wav")
+    var Sound1 = Bundle.main.url(forResource: "BassDrum", withExtension: "wav")
+    var Sound2 = Bundle.main.url(forResource: "Crash Cymbal (Choked)", withExtension: "wav")
+    var Sound3 = Bundle.main.url(forResource: "Crash Cymbal #1", withExtension: "wav")
+    var Sound4 = Bundle.main.url(forResource: "Crash Cymbal #2", withExtension: "wav")
+    var Sound5 = Bundle.main.url(forResource: "Floor Tom", withExtension: "wav")
+    var Sound6 = Bundle.main.url(forResource: "Hi-Hat (Closed)", withExtension: "wav")
+    var Sound7 = Bundle.main.url(forResource: "Hi-Hat (Open)", withExtension: "wav")
+    var Sound8 = Bundle.main.url(forResource: "High-Tom", withExtension: "wav")
+    var Sound9 = Bundle.main.url(forResource: "Mid-Tom", withExtension: "wav")
+    var Sound10 = Bundle.main.url(forResource: "Ride Cymbal (Bell)", withExtension: "wav")
+    var Sound11 = Bundle.main.url(forResource: "Ride Cymbal (Hard)", withExtension: "wav")
+    var Sound12 = Bundle.main.url(forResource: "Ride Cymbal", withExtension: "wav")
     
     override func viewDidLoad() {
         super.viewDidLoad()
